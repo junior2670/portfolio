@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-family: roboto;
+    
+    
+}
+html{
+    color:  #5B5963;
+}
+
+.menu a{
+    font-weight: 600;
+
+}
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    height: 8vh;
+  
+}
+ 
+
+
+.menu .link{
+    margin-right: 30px;
+}
+.menu .link .item{
+    margin-right: 20px;
+    font-size: 18px;
+}
+.menu .actif a{
+    margin-left: 15px;
+    font-size: 25px;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color:#5B5963 ;
+    
+   
+}
+.menu .actif a:hover{
+    background-color:#F2F2F2;
+    color: black;
+    transition: 0.6s;
+
+}
+.menu .item{
+    color:#5B5963;
+}
+.menu .item:hover{
+    color:wheat ;
+    transition: 0.3s;
+}
+.bienvenu img{
+    width:220px;
+    height: 250px;
+    
+}
+.hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hello .textb{
+    text-align: center;
+    line-height: 25px;
+}
+.bienvenu{
+    height: 100vh;
+    padding-top: 50px;
+}
+.bienvenu img{
+    margin-bottom: 20px;
+
+}
+#propos{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    background-color: #363636;
+    height: 80vh
+}
+#propos h1 ,#propos h3{
+    color:white
+}
+#propos .personne p{
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -120px;
+    opacity: 0.1;
+    text-align: center;
+    font-weight: 700;
+}
+#propos h1{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+#travail #tite {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+
+#travail #tite {
+    margin-bottom: 70px;
+    padding:70px  ;
+
+}
+#travail #tite #arriere p{
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -120px;
+    opacity: 0.05;
+    text-align: center;
+    font-weight: 700;
+}
+#travail .grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    column-gap: 50px ;
+    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+   
+
+#travail .grid .item img{
+    width: 300px ;
+    
+  }
+#travail {
+    background-color:#F2F2F2;
+    height:135vh ;
+}
+#travail #tite h2{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+#travail #tite p{
+    font-size: 25px;
+}
+#contact #formulaire {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 
+.item{
+    position: relative;
+}
+.item .grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:280px ;
+    height: 150px;
+    background:black;
+    color:#F2F2F2;
+    border: 0px solid;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 0.8s;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.item .grid-item:hover{
+    opacity: 0.8;
+}
+.item .grid-item h2{
+    color:yellow;
+    
+}
+
+
+.contact .titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.contact .titre h2{
+    text-align: center;
+    font-weight: 600;
+}
+.contact .titre p{
+    font-size: 120px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -10px;
+    opacity: 0.05;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.contact {
+    height:110vh;
+}
+.contact  .form{ 
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 30px ;
+
+
+}
+.contact .form #name ,.contact .form #email,.contact .form #phone 
+ {
+  width: 300px ;
+  height: 50px ;
+  border-width: 0;
+  background-color:#F2F2F2;
+  margin-bottom: 10px;
+}
+.contact .form #date,.contact .form #commentaire{
+    background-color: #F2F2F2;
+    border-width: 0;
+    margin-bottom: 10px;
+}
+.contact .form .fichier{
+    width: 150px;
+    height: 25px;
+    border-width: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contact .form .fichier{
+    background-color:#363636;
+    color: #F2F2F2;
+ }
+ footer{
+    background-color:#363636 ;
+    height: 30vh;
+ }
+  footer a img{ 
+    width: 30px;
+    height: 30px;
+  
+}
+footer #pied {
+    margin-left: 600px;
+    padding-top: 30px;
+  
+}
+footer #pied a img{
+    margin-right: 10px;
+   
+    border-radius: 25px;
+}
+footer .col p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+   
